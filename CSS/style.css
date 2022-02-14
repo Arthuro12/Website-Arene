@@ -1,0 +1,99 @@
+/*Customized Navbar*/
+
+/*Change Hamburger-icon color into green*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(12, 58, 4)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(12, 58, 4);
+}
+
+.custom-navbar-link {
+    font-size: 3em;
+}
+
+.custom-navbar {
+    background-color: aquamarine;
+    /*border: 2px solid green;*/
+}
+
+nav .navbar-nav li a {
+    color: rgb(15, 14, 14) !important;
+    border-top: 3px solid rgb(15, 14, 14);
+    margin-left: 2em;
+}
+
+/*Banner*/
+.custom-btn {
+    border-radius: 0 !important;
+}
+
+.banner p {
+    margin-top: 2em;
+}
+
+.banner h1 {
+    padding-top: 3em;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(243, 235, 235, 0.5), rgba(204, 198, 198, 0.5)), url("../Images/banner.jpg");
+    height: 30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.1px;
+}
+
+.banner-title {
+    color: green;
+}
+
+.banner-text {
+    font-size: 24px;
+    color: white;
+}
+
+/*Skills*/
+.progress-bar-container {
+    box-shadow: 5px 5px 15px 5px rgba(233, 230, 230, 0.45);
+    padding: 3em;
+}
+
+/*Experience*/
+.experience-card-child {
+    height: 14em;
+    padding-top: 1em;
+}
+
+.experience-card-child:hover {
+    box-shadow: 5px 5px 15px 5px rgba(54, 50, 50, 0.45);
+}
+
+/*Contact*/
+
+.contact {
+    background-color: rgb(127, 255, 212);
+}
+
+.custom-btn {
+    background-color: rgb(25, 170, 44);
+    border-radius: 5px !Important;
+}
+
+.custom-btn:focus,
+.custom-input:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+/*Footer*/
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li a {
+    text-decoration: none;
+}
