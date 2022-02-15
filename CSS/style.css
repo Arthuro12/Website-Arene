@@ -97,3 +97,10 @@ nav .navbar-nav li a {
 .footer-list li a {
     text-decoration: none;
 }
+
+/*Responsive*/
+@media (min-width: 576px) {
+    img {
+        max-width: 100%;
+    }
+}
